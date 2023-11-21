@@ -1,0 +1,47 @@
+{
+"codeLens.enable": true,
+"coc.preferences.colorSupport": true,
+// nerd tree icons
+"suggest.completionItemKindLabels": {
+    "method": "  ",
+    "function": "  ",
+    "variable": "[]",
+    "field": "  ",
+    "typeParameter": "<>",
+    "constant": "  ",
+    "class": " פּ ",
+    "interface": " 蘒",
+    "struct": "  ",
+    "event": "  ",
+    "operator": "  ",
+    "module": "  ",
+    "property": "  ",
+    "enum": " 練",
+    "reference": "  ",
+    "keyword": "  ",
+    "file": "  ",
+    "folder": " ﱮ ",
+    "color": "  ",
+    "unit": " 塞 ",
+    "snippet": "  ",
+    "text": "  ",
+    "constructor": "  ",
+    "value": "  ",
+    "enumMember": "  "
+  },
+// python
+"python.linting.enabled":false,
+// coc-clangd
+"clangd.disableDiagnostics":true,
+// coc-yank
+"yank.enableCompletion":false,
+"suggest.autoTrigger": "none"
+
+"workspace.ignoredFolders": [
+  "$HOME",
+  "$HOME/.cargo/**",
+  "$HOME/.rustup/**"
+],
+
+"rust-analyzer.diagnostics.enable":false,
+}
