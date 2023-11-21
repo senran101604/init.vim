@@ -36,12 +36,37 @@
 // coc-yank
 "yank.enableCompletion":false,
 "suggest.autoTrigger": "none"
-
+// Rust
 "workspace.ignoredFolders": [
   "$HOME",
   "$HOME/.cargo/**",
   "$HOME/.rustup/**"
 ],
-
 "rust-analyzer.diagnostics.enable":false,
+
+
+"languageserver": {
+  "rust-analyzer": {
+    "enable": true,
+    "features": {
+      "checkOnSave": false,
+      "highlight": false,
+      "inlayHints": false,
+      "rainbowHighlight": false,
+      "referencesCodeLens": true,
+      "rename": false,
+      "run": false,
+      "signatureHelp": false,
+      "fullSyntaxTree": false,
+      "hoverActions": false,
+      "completion": false,
+      "gotoDefinition": true,
+      "gotoImplementation": false,
+      "findImplementations": false,
+      "findReferences": false,
+      "hover": true
+    }
+  }
+}
+
 }
