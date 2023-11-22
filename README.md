@@ -12,6 +12,8 @@ and, if you have free time try to migrate to lua! But for now, I'm mostly love t
   <img src= "https://github.com/senran101604/init.vim/blob/master/img_preview/goyo.png" width="800" />
 </p>
 
+**The fonts that I'm using in the pictures are RobotoMono NF and Ubuntu Mono**
+
 ## Key Mappings
 
 ### Window Navigation
@@ -87,6 +89,5 @@ and, if you have free time try to migrate to lua! But for now, I'm mostly love t
 | **For Fun**                                | [cellular-automaton.nvim](https://github.com/eandrju/cellular-automaton.nvim)                  | Cellular automaton in Neovim for a touch of creativity.                                                   |
 | **Treesitter and Rust Support**            | [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)                          | Treesitter parser generator for Neovim for improved syntax highlighting.                                  |
 |                                            | [rust.vim](https://github.com/rust-lang/rust.vim)                                              | Rust support for Vim, enhancing the Rust development experience.                                          |
-
 
 This README is a snapshot of my current Neovim setup.
