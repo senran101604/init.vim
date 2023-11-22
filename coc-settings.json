@@ -35,16 +35,16 @@
 "clangd.disableDiagnostics":true,
 // coc-yank
 "yank.enableCompletion":false,
-"suggest.autoTrigger": "none"
+"suggest.autoTrigger": "none",
 // Rust
 "workspace.ignoredFolders": [
   "$HOME",
   "$HOME/.cargo/**",
   "$HOME/.rustup/**"
 ],
+"rust-analyzer.checkOnSave": false,
 "rust-analyzer.diagnostics.enable":false,
-
-
+"rust-analyzer.lens.enable": false,
 "languageserver": {
   "rust-analyzer": {
     "enable": true,
@@ -53,7 +53,7 @@
       "highlight": false,
       "inlayHints": false,
       "rainbowHighlight": false,
-      "referencesCodeLens": true,
+      "referencesCodeLens": false,
       "rename": false,
       "run": false,
       "signatureHelp": false,
