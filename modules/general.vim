@@ -1,15 +1,14 @@
 " General Options and Functions
-set mouse=a
 filetype plugin on
 syntax enable
 let mapleader = " "
 set encoding=utf-8
-set hidden
+" set hidden
 set nobackup
 set nowritebackup
 set cmdheight=2
-set nocursorline
-set updatetime=50
+set cursorline
+set updatetime=300
 set shortmess+=c
 
 " Sign and Cursor Configurations
@@ -18,7 +17,7 @@ if has("patch-8.1.1564")
 else
   set signcolumn=yes
 endif
-" set guicursor=a:bar
+set guicursor=a:bar
 
 " Popup Menu and Tab Configurations
 set pumheight=10
@@ -52,9 +51,9 @@ endif
 
 " Swap, Tab, and Indentation Configurations
 set noswapfile
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 set expandtab
 
 " Autoindent, Clipboard, and File Format Configurations
