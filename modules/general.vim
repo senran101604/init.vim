@@ -2,6 +2,7 @@
 filetype plugin on
 syntax enable
 let mapleader = " "
+set background=dark
 set encoding=utf-8
 " set hidden
 set nobackup

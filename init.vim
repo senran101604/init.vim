@@ -7,7 +7,6 @@
 " | $$  | $$|  $$$$$$$| $$  | $$| $$  | $$| $$|  $$$$$$$| $$
 " |__/  |__/ \_______/|__/  |__/|__/  |__/|__/ \_______/|__/   @senran101604
 
-set background=dark
 " Define the base path based on the operating system
 let base_path = has("win32") ? $HOME . "/AppData/Local/nvim/" : $HOME . "/.config/nvim/"
 
