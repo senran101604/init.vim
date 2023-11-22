@@ -53,9 +53,6 @@ Plug 'mhinz/vim-startify'                 " Fancy start screen for Vim
 " Surround:
 Plug 'tpope/vim-surround'                 " Easy manipulation of surroundings (parentheses, quotes, etc.)
 
-" Git Integration:
-Plug 'tpope/vim-fugitive'                 " Git wrapper for Vim
-
 " Syntax Highlighting and Linting:
 Plug 'ap/vim-css-color'                   " Highlight colors in CSS files
 Plug 'ryanoasis/vim-devicons'             " Provides file type icons in NERDTree
