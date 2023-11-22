@@ -25,17 +25,9 @@ endif
 " Make sure you use single quotes
 Plug 'senran101604/neotrix.vim'         " Vibrant colorscheme
 Plug 'sainnhe/sonokai'                   " High-contrast colorscheme
-Plug 'joshdick/onedark.vim'              " Dark and vibrant colorscheme
 Plug 'gruvbox-community/gruvbox'        " Retro, high-contrast colorscheme
-Plug 'sainnhe/gruvbox-material'          " Materialized Gruvbox colorscheme
 Plug 'arcticicestudio/nord-vim'          " Clean and frosty colorscheme
-Plug 'tomasr/molokai'                    " Popular, vibrant colorscheme
 Plug 'nanotech/jellybeans.vim'           " Low-contrast, colorful colorscheme
-Plug 'lifepillar/vim-solarized8'         " Solarized colorscheme
-Plug 'drewtempelmeyer/palenight.vim'     " Palenight-inspired colorscheme
-Plug 'marko-cerovac/material.nvim'       " Material Design-inspired colorscheme
-Plug 'mhartington/oceanic-next'          " Oceanic Next variation
-Plug 'doums/darcula'                     " Dark colorscheme inspired by IntelliJ Darcula
 Plug 'junegunn/seoul256.vim'             " Low-contrast, soft colorscheme
 
 " File Tree Explorer:
