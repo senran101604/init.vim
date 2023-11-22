@@ -2,14 +2,14 @@
 
 **Welcome my older self**, this is the noevim setup you've tailored (mostly copied from others) for
 the past few years before you run away from your computer. Be sure to use lua in the future
-and, if you have free time try to migrate to lua! But for now, I'm mostly love this setup.
+and, if you have free time try to migrate to lua! But for now, I'm mostly inlove with this setup.
 
 <p align="center">
   <img src="https://github.com/senran101604/init.vim/blob/master/img_preview/overview.png"  width="45%" />
   <img src="https://github.com/senran101604/init.vim/blob/master/img_preview/floaterm.png"  width="45%" />
 </p>
 <p align="center">
-  <img src= "https://github.com/senran101604/init.vim/blob/master/img_preview/goyo.png" width="800" />
+  <img src= "https://github.com/senran101604/init.vim/blob/master/img_preview/goyo.png" width="80%" />
 </p>
 
 **The fonts that I'm using in the pictures are RobotoMono NF and Ubuntu Mono**
