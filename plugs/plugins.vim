@@ -23,12 +23,12 @@ endif
 
 " Colorschemes:
 " Make sure you use single quotes
-Plug 'senran101604/neotrix.vim'         " Vibrant colorscheme
-Plug 'sainnhe/sonokai'                   " High-contrast colorscheme
-Plug 'gruvbox-community/gruvbox'        " Retro, high-contrast colorscheme
-Plug 'arcticicestudio/nord-vim'          " Clean and frosty colorscheme
-Plug 'nanotech/jellybeans.vim'           " Low-contrast, colorful colorscheme
-Plug 'junegunn/seoul256.vim'             " Low-contrast, soft colorscheme
+Plug 'senran101604/neotrix.vim'           " Vibrant colorscheme
+Plug 'sainnhe/sonokai'                    " High-contrast colorscheme
+Plug 'gruvbox-community/gruvbox'          " Retro, high-contrast colorscheme
+Plug 'arcticicestudio/nord-vim'           " Clean and frosty colorscheme
+Plug 'nanotech/jellybeans.vim'            " Low-contrast, colorful colorscheme
+Plug 'junegunn/seoul256.vim'              " Low-contrast, soft colorscheme
 
 " File Tree Explorer:
 Plug 'preservim/nerdtree'                 " File tree explorer for Vim and Neovim
@@ -74,7 +74,7 @@ Plug 'voldikss/vim-floaterm'              " Floating terminal for Vim
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}  " Live preview for Markdown files
 
 " Fun:
-Plug 'eandrju/cellular-automaton.nvim'   " Cellular automaton in Neovim
+Plug 'eandrju/cellular-automaton.nvim'    " Cellular automaton in Neovim
 
 " Treesitter and Rust Support:
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " Treesitter parser generator for Neovim
