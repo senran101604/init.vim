@@ -49,10 +49,6 @@ Plug 'preservim/nerdcommenter'            " Plugin for easy commenting
 " Rainbow Parentheses:
 Plug 'luochen1990/rainbow'                " Highlights parentheses, brackets, and braces in different colors
 
-" Statusline and Tabline:
-Plug 'vim-airline/vim-airline'            " Lightweight statusline
-Plug 'vim-airline/vim-airline-themes'     " Themes for Vim Airline
-
 " Fuzzy Finder and Utilities:
 Plug 'junegunn/fzf', { 'do': { -> fzf#install()  } }  " Fuzzy finder with preview (requires 'bat')
 Plug 'junegunn/fzf.vim'                   " FZF integration with Vim
@@ -62,11 +58,7 @@ Plug 'junegunn/limelight.vim'             " Focus on the current code block
 " Startup Screen:
 Plug 'mhinz/vim-startify'                 " Fancy start screen for Vim
 
-" Snippets:
-Plug 'SirVer/ultisnips'                   " Snippet engine for Vim
-
-" Auto-pairs and Surround:
-Plug 'jiangmiao/auto-pairs'               " Automatically inserts or deletes matching pairs
+" Surround:
 Plug 'tpope/vim-surround'                 " Easy manipulation of surroundings (parentheses, quotes, etc.)
 
 " Git Integration:
@@ -76,13 +68,9 @@ Plug 'tpope/vim-fugitive'                 " Git wrapper for Vim
 Plug 'ap/vim-css-color'                   " Highlight colors in CSS files
 Plug 'ryanoasis/vim-devicons'             " Provides file type icons in NERDTree
 Plug 'vimwiki/vimwiki'                    " Personal wiki for Vim
-Plug 'Yggdroot/indentLine'                " Display indents in Vim
 
 " LSP and Auto-completion:
-Plug 'dense-analysis/ale', { 'on': [] }   " Asynchronous linting engine
 Plug 'neoclide/coc.nvim', {'branch': 'release'}  " Completion framework and language server client
-Plug 'lervag/vimtex', { 'on': [] }        " Plugin for writing LaTeX documents
-Plug 'heavenshell/vim-pydocstring', { 'for': 'python' }  " Auto-generate Python docstrings
 
 " Popup and Telescopic Finder:
 Plug 'nvim-lua/popup.nvim'                " Popup library for Neovim
@@ -93,8 +81,7 @@ Plug 'nvim-telescope/telescope.nvim'      " Fuzzy finder for Neovim
 Plug 'voldikss/vim-floaterm'              " Floating terminal for Vim
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}  " Live preview for Markdown files
 
-" Fun and Games:
-Plug 'ThePrimeagen/vim-be-good'           " Game to improve Vim skills
+" Fun:
 Plug 'eandrju/cellular-automaton.nvim'   " Cellular automaton in Neovim
 
 " Treesitter and Rust Support:
