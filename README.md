@@ -9,7 +9,7 @@ and, if you have free time try to migrate to lua! But for now, I'm mostly inlove
   <img src="https://github.com/senran101604/init.vim/blob/master/img_preview/floaterm.png"  width="45%" />
 </p>
 <p align="center">
-  <img src= "https://github.com/senran101604/init.vim/blob/master/img_preview/goyo.png" width="80%" />
+  <img src= "https://github.com/senran101604/init.vim/blob/master/img_preview/goyo.png" width="90%" />
 </p>
 
 **The fonts that I'm using in the pictures are RobotoMono NF and Ubuntu Mono**
