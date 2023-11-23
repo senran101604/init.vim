@@ -18,11 +18,11 @@ colorscheme gruvbox
 " Vimwiki Configuration
 " Highlighting for Vimwiki
 hi! link VimwikiHeader1 GruvboxRed
-hi! link VimwikiHeader2 GruvboxGreen
-hi! link VimwikiHeader3 GruvboxBlue
-hi! link VimwikiHeader4 GruvboxPurple
-hi! link VimwikiHeader5 GruvboxAqua
-hi! link VimwikiHeader6 GruvboxYellow
+hi! link VimwikiHeader2 GruvboxOrange
+hi! link VimwikiHeader3 GruvboxYellow
+hi! link VimwikiHeader4 GruvboxGreen
+hi! link VimwikiHeader5 GruvboxBlue
+hi! link VimwikiHeader6 GruvboxPurple
 hi! link VimwikiCode GruvboxPurple
 hi! link VimwikiPre GruvboxPurple
 hi! link VimwikiTodo Function
