@@ -35,6 +35,9 @@ Plug 'preservim/nerdtree'                 " File tree explorer for Vim and Neovi
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'  " Syntax highlighting for NERDTree
 Plug 'preservim/tagbar'                   " Display tags in a vertical window
 
+" Undo History Visualizer
+Plug 'mbbill/undotree'                    " The undo history visualizer for VIM
+
 " Commenting:
 Plug 'preservim/nerdcommenter'            " Plugin for easy commenting
 
@@ -53,7 +56,7 @@ Plug 'mhinz/vim-startify'                 " Fancy start screen for Vim
 " Surround:
 Plug 'tpope/vim-surround'                 " Easy manipulation of surroundings (parentheses, quotes, etc.)
 
-" Syntax Highlighting and Linting:
+" Creative and Aesthetic Plugins
 Plug 'ap/vim-css-color'                   " Highlight colors in CSS files
 Plug 'ryanoasis/vim-devicons'             " Provides file type icons in NERDTree
 Plug 'vimwiki/vimwiki'                    " Personal wiki for Vim
