@@ -75,6 +75,12 @@ set ignorecase
 set smartcase
 set hlsearch
 set incsearch
+
+" Conceal Cursor Configuration for Vimwiki
+" to avoid expanding links when hovering.
+set concealcursor=nc
+
+
 " Uncomment the following lines if needed:
 " set completeopt=menuone,noinsert,noselect
 " set wildmenu
