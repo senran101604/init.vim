@@ -31,6 +31,3 @@ let g:NERDTreeDirArrowCollapsible = '▾'
 "     autocmd!
 "     autocmd VimEnter * NERDTree | wincmd p
 " augroup END
-
-" Source vim-devicons for NERDTree icons
-source $HOME/AppData/Local/nvim/modules/vim-devicons.vim
