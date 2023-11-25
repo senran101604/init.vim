@@ -29,13 +29,15 @@ Plug 'gruvbox-community/gruvbox'          " Retro, high-contrast colorscheme
 Plug 'arcticicestudio/nord-vim'           " Clean and frosty colorscheme
 Plug 'nanotech/jellybeans.vim'            " Low-contrast, colorful colorscheme
 Plug 'junegunn/seoul256.vim'              " Low-contrast, soft colorscheme
+Plug 'srcery-colors/srcery-vim'
+Plug 'craftzdog/solarized-osaka.nvim'
 
 " File Tree Explorer:
 Plug 'preservim/nerdtree'                 " File tree explorer for Vim and Neovim
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'  " Syntax highlighting for NERDTree
 Plug 'preservim/tagbar'                   " Display tags in a vertical window
 
-" Undo History Visualizer
+" Undo History Visualizer:
 Plug 'mbbill/undotree'                    " The undo history visualizer for VIM
 
 " Commenting:
@@ -56,10 +58,11 @@ Plug 'mhinz/vim-startify'                 " Fancy start screen for Vim
 " Surround:
 Plug 'tpope/vim-surround'                 " Easy manipulation of surroundings (parentheses, quotes, etc.)
 
-" Creative and Aesthetic Plugins
+" Creative and Aesthetic Plugins:
 Plug 'ap/vim-css-color'                   " Highlight colors in CSS files
 Plug 'ryanoasis/vim-devicons'             " Provides file type icons in NERDTree
 Plug 'vimwiki/vimwiki'                    " Personal wiki for Vim
+Plug 'mattn/calendar-vim'                 " Calendar Inside Vim 
 
 " LSP and Auto-completion:
 Plug 'neoclide/coc.nvim', {'branch': 'release'}  " Completion framework and language server client
