@@ -30,6 +30,13 @@ augroup LineNumberSettings
   autocmd InsertEnter * :set norelativenumber
   autocmd InsertLeave * :set relativenumber
 augroup END
+
+" Disable Cursorline on Inactive Windows
+augroup DynamicCursorline
+    autocmd!
+    autocmd WinEnter * set cursorline
+    autocmd WinLeave * set nocursorline
+augroup END
 " Source: http://stackoverflow.com/questions/774560/in-vim-how-do-i-get-a-file-to-open-at-the-same-line-number-i-closed-it-at-last
 
 " Uncomment the lines below if you want cursorline to be disabled in inactive windows
