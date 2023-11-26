@@ -1,6 +1,9 @@
 " Disable continuation of comments to the next line
-autocmd BufNewFile,BufRead * setlocal formatoptions-=cro
-" Source: http://superuser.com/questions/271023/vim-can-i-disable-continuation-of-comments-to-the-next-line
+" Source: http://superuser.com/questions/271023/vim-can-i-disable-continuation-of-comments-t o-the-next-line
+augroup DisableCommentContinuation
+  autocmd!
+  autocmd BufNewFile,BufRead,BufEnter * setlocal formatoptions-=cro
+augroup END
 
 " Terminal settings
 augroup TerminalSettings
@@ -12,7 +15,7 @@ augroup TerminalSettings
   " autocmd TermOpen * startinsert
 augroup END
 
-" Set working directory to the location of the active buffer
+" Set working directory to the location of the currently active buffer.
 augroup SetWorkingDir
   au!
   autocmd BufEnter * silent! lcd %:p:h
@@ -25,6 +28,7 @@ autocmd BufReadPost *
   \ | endif
 
 " Set line numbering based on mode
+" Source: http://stackoverflow.com/questions/774560/in-vim-how-do-i-get-a-file-to-open-at-the-same-line-number-i-closed-it-at-last
 augroup LineNumberSettings
   autocmd!
   autocmd InsertEnter * :set norelativenumber
@@ -37,7 +41,6 @@ augroup DynamicCursorline
     autocmd WinEnter * set cursorline
     autocmd WinLeave * set nocursorline
 augroup END
-" Source: http://stackoverflow.com/questions/774560/in-vim-how-do-i-get-a-file-to-open-at-the-same-line-number-i-closed-it-at-last
 
 " Uncomment the lines below if you want cursorline to be disabled in inactive windows
 " autocmd WinLeave * set nocursorline
