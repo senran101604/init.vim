@@ -12,9 +12,6 @@ nnoremap <silent> <M-l> :vertical resize -1<CR>
 nnoremap <silent> <M-h> :vertical resize +1<CR>
 
 " Terminal Specific =============================================
-" To create a vertical split terminal using PowerShell 7
-" map <leader>tt :vnew term://pwsh<ENTER>
-" map <silent> <leader>vt :sp term://pwsh<CR>
 tmap jk <C-\><C-n>
 tmap kj <C-\><C-n>
 
