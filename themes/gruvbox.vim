@@ -4,7 +4,7 @@ let g:gruvbox_contrast_light = "medium"
 
 let g:gruvbox_bold = 0
 let g:gruvbox_italic = 1
-let g:gruvbox_italicize_comments = 1
+let g:gruvbox_italicize_comments = 0
 let g:gruvbox_underline = 1
 let g:gruvbox_undercurl = 1
 let g:gruvbox_invert_selection = 1
@@ -17,16 +17,17 @@ colorscheme gruvbox
 
 " Vimwiki Configuration
 " Highlighting for Vimwiki
-hi! link VimwikiHeader1 GruvboxRed
-hi! link VimwikiHeader2 GruvboxOrange
-hi! link VimwikiHeader3 GruvboxYellow
-hi! link VimwikiHeader4 GruvboxGreen
-hi! link VimwikiHeader5 GruvboxBlue
-hi! link VimwikiHeader6 GruvboxPurple
+hi! link VimwikiHeader1 GruvboxRedBold
+hi! link VimwikiHeader2 GruvboxOrangeBold
+hi! link VimwikiHeader3 GruvboxYellowBold
+hi! link VimwikiHeader4 GruvboxGreenBold
+hi! link VimwikiHeader5 GruvboxBlueBold
+hi! link VimwikiHeader6 GruvboxPurpleBold
 hi! link VimwikiCode GruvboxPurple
 hi! link VimwikiPre GruvboxPurple
 hi! link VimwikiTodo Function
 hi! link VimwikiListTodo Function
+hi VimwikiWeblink1 gui=bold,underline
 
 " Telescope Configuration
 " Highlighting for Telescope
@@ -46,16 +47,16 @@ hi MinimapCurrentLine guifg=#b8bb26 guibg=#3c3836
 " Comment Configuration
 hi Comment guifg=#a89984
 
-" Python Configuration
-" Highlighting for Python
-hi! link pythonClassVar GruvboxYellow
-hi! link pythonFunctionCall GruvboxOrange
-hi! link pythonFunction GruvboxOrange
+" " Python Configuration
+" " Highlighting for Python
+" hi! link pythonClassVar GruvboxYellow
+" hi! link pythonFunctionCall GruvboxOrange
+" hi! link pythonFunction GruvboxOrange
 
-" Python Builtins Configuration
-" Highlighting for Python Builtins
-hi! link pythonBuiltinFunc GruvboxPurple
-hi! link pythonBuiltinObj GruvboxPurple
+" " Python Builtins Configuration
+" " Highlighting for Python Builtins
+" hi! link pythonBuiltinFunc GruvboxPurple
+" hi! link pythonBuiltinObj GruvboxPurple
 
 " C Configuration
 " Highlighting for C
