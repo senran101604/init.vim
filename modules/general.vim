@@ -18,7 +18,7 @@ if has("patch-8.1.1564")
 else
   set signcolumn=yes
 endif
-" set guicursor=a:bar
+set guicursor=a:bar
 
 " Popup Menu and Tab Configurations
 set pumheight=10
@@ -80,6 +80,8 @@ set incsearch
 " to avoid expanding links when hovering.
 set concealcursor=nc
 
+" StatusLine Configuration
+set statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P\ (%{line('$')})
 
 " Uncomment the following lines if needed:
 " set completeopt=menuone,noinsert,noselect
