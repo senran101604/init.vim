@@ -1,9 +1,13 @@
-" Goyo Settings
+" Goyo and Limelight Settings
 
 " Number of preceding/following paragraphs to include (default: 0)
 " let g:limelight_paragraph_span = 0
 " Set it to -1 not to overrule hlsearch
 " let g:limelight_priority = -1
+
+" Some  colorscheme, Limelight may not be able to calculate the color for
+" dimming the surrounding paragraphs
+let g:limelight_conceal_guifg = '#504945'
 let g:goyo_width = 80
 " let g:goyo_height = 95
 
@@ -29,19 +33,15 @@ nnoremap <silent><leader>G :Goyo<CR>
 
 function! s:goyo_leave()
   " Restore color highlighting, solving issues with colors not being loaded
-  if g:colors_name == "gruvbox"
-    call s:source_theme("gruvbox")
-  elseif g:colors_name == "gruvbox-material"
-    call s:source_theme("gruvbox_material")
-  elseif g:colors_name == "nord"
-    call s:source_theme("nord")
-  elseif g:colors_name == "neotrix"
-    call s:source_theme("neotrix")
-  elseif g:colors_name == "zephyr"
-    call s:source_theme("zephyr")
-  elseif g:colors_name == "molokai"
-    call s:source_theme("molokai")
-  endif
+  let themes = ["gruvbox", "gruvbox_material", "nord", "neotrix", "molokai", "solarized", "jellybeans"]
+
+  for theme in themes
+    if g:colors_name ==# theme
+      call s:source_theme(theme)
+      break
+    endif
+  endfor
+
   set scrolloff=5
   set showcmd
   Limelight! " Deactivate Limelight
