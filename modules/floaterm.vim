@@ -20,7 +20,7 @@ let g:floaterm_autoinsert = v:false
 
 " Set PowerShell as the terminal if the OS is Windows 10
 if has("win32")
-   let g:floaterm_shell = "pwsh"
+   let g:floaterm_shell = "pwsh -nologo"
 endif
 
 let g:floaterm_width = 0.7
