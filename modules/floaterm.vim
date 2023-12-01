@@ -23,5 +23,5 @@ if has("win32")
    let g:floaterm_shell = "pwsh -nologo"
 endif
 
-let g:floaterm_width = 0.7
-let g:floaterm_height = 0.7
+let g:floaterm_width = 0.9
+let g:floaterm_height = 0.9

@@ -2,9 +2,6 @@
 " Open NERDTree
 nmap <leader>nt :NERDTreeToggle %:p:h<CR>
 
-" Find file in NERDTree
-nmap <leader>nf :NERDTreeFind<CR>
-
 " NERDTree Settings =============================================
 " Automatically delete the buffer when closing NERDTree
 let NERDTreeAutoDeleteBuffer = 1
