@@ -5,10 +5,8 @@ colorscheme jellybeans
 " hi NonText guibg=#000000 ctermbg=black
 hi  Comment gui=None
 hi Search guifg=#fabd2f  gui=reverse
-hi StatusLine guifg=#ffffff guibg=#282828
-" hi TabLine guifg=#ffffff guibg=#000000
-" hi TabLineFill guifg=#ffffff guibg=#000000
-hi TabLineSel guifg=#ffffff guibg=#000000 gui=Italic
+hi StatusLine guifg=#fbf1c7 guibg=#282828
+hi TabLineSel guifg=#fbf1c7 guibg=#3e3e3e gui=Italic
 hi StatusLineNC guibg=#151515
 
-hi VimwikiWeblink1 guifg=#FFEFD5 guibg=#000000 gui=bold,underline
+" hi VimwikiWeblink1 guifg=#FFEFD5 guibg=#000000 gui=bold,underline
